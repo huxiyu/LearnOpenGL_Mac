@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		015ECB13BA954311927B4E0C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D4ABAC5DCAC4F2E8C0E6623 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				48B357BE51764A3499EB0693 /* CMake Rules */,
+			);
+			dependencies = (
+				E4A01DBC34574BE6967C6D17 /* PBXTargetDependency */,
+				427C889848344A76B5AFA713 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		14EC82DDD1CF4C32A499759E /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6C511443D844D2E9E9C86A2 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3071745F78CB45DFBFD55193 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FC57DE6C69D84341A11F1891 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		DE3F628C056348B7B03B274E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E10CF3A99B2D4AD89703EFB2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BF9C9C9CFE5E488495B9ED10 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7A5F74624F0C47BB92852DA0 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = 94EEC18408FB40B78AB44C3A /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src/glew.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F63F5AE22F1E475BAF640A89 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F99D2DEAB86945A09994145C /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		17F4B7FAEAC545FCB7E4A2E6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		20B3CF8FD27F4BCF9334DC3D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		488A44EE55D54BAFA6760FB4 = {
+			isa = PBXBuildStyle;
+		};
+		BE6D2132FCA04ECAA4FE707A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C123831A0C7647C6BAE237A7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		157C1C0A7D3C4179859C0014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532AC4044C3D4DDC9B9A6FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3F628C056348B7B03B274E;
+			remoteInfo = ZERO_CHECK;
+		};
+		4EF7E6C90831447E962D2E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532AC4044C3D4DDC9B9A6FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02DEFC2BD642440688CC25DB;
+			remoteInfo = libglew_static;
+		};
+		B92CDD150F874D39BAE0D114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532AC4044C3D4DDC9B9A6FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3F628C056348B7B03B274E;
+			remoteInfo = ZERO_CHECK;
+		};
+		FA1C6F52A86A4B9BBD6CE2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532AC4044C3D4DDC9B9A6FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015ECB13BA954311927B4E0C;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153C611E4BBC4D0EB685D57D /* libglew_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglewd.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A882D840FF40558A871A46 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		94EEC18408FB40B78AB44C3A /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		B930B86628464AAEB5176993 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F99D2DEAB86945A09994145C /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		037A8613AD934E8C8890079E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4DA3C37E4BB641A9A8C2D428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153C611E4BBC4D0EB685D57D /* libglew_static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C090457FFB94763A098BC9B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				94EEC18408FB40B78AB44C3A /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		775A510F5DC34DE48245C3DE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				82D1158C3C5543C0A30439EA /* libglew_static */,
+				BC3E50B442DD4FEEBB4C72B2 /* ALL_BUILD */,
+				F08CD27BFC7844AFA17F023C /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		80CE0225863A4B1496306518 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		82D1158C3C5543C0A30439EA /* libglew_static */ = {
+			isa = PBXGroup;
+			children = (
+				5C090457FFB94763A098BC9B /* Source Files */,
+				F99D2DEAB86945A09994145C /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglew_static;
+			sourceTree = "<group>";
+		};
+		B36BA0949F234D98A6BDC733 = {
+			isa = PBXGroup;
+			children = (
+				775A510F5DC34DE48245C3DE /* Sources */,
+				80CE0225863A4B1496306518 /* Resources */,
+				4DA3C37E4BB641A9A8C2D428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3E50B442DD4FEEBB4C72B2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EAE0BC8E71EE421B8A1F6E1E /* CMake Rules */,
+				89A882D840FF40558A871A46 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EAE0BC8E71EE421B8A1F6E1E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F08CD27BFC7844AFA17F023C /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				037A8613AD934E8C8890079E /* CMake Rules */,
+				B930B86628464AAEB5176993 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02DEFC2BD642440688CC25DB /* libglew_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354C12C00E4645909B519C3D /* Build configuration list for PBXNativeTarget "libglew_static" */;
+			buildPhases = (
+				27A948CA6BB54A5BBC8B7CF3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396777392ABC478ABDDB9728 /* PBXTargetDependency */,
+			);
+			name = libglew_static;
+			productName = libglew_static;
+			productReference = 153C611E4BBC4D0EB685D57D /* libglew_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		532AC4044C3D4DDC9B9A6FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = D39021F89C7E476C9085E2AD /* Build configuration list for PBXProject "glew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C123831A0C7647C6BAE237A7 /* Debug */,
+				BE6D2132FCA04ECAA4FE707A /* Release */,
+				20B3CF8FD27F4BCF9334DC3D /* MinSizeRel */,
+				17F4B7FAEAC545FCB7E4A2E6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B36BA0949F234D98A6BDC733;
+			projectDirPath = "../../../external/glew-cmake";
+			projectRoot = "";
+			targets = (
+				015ECB13BA954311927B4E0C /* ALL_BUILD */,
+				DE3F628C056348B7B03B274E /* ZERO_CHECK */,
+				14EC82DDD1CF4C32A499759E /* install */,
+				02DEFC2BD642440688CC25DB /* libglew_static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3071745F78CB45DFBFD55193 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		48B357BE51764A3499EB0693 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6F730D6F29E94B8EACF47E88 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AB014C88D25E48ABADF02D98 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BF9C9C9CFE5E488495B9ED10 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C922B3EE54A844F6BED653CA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A948CA6BB54A5BBC8B7CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5F74624F0C47BB92852DA0 /* /Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396777392ABC478ABDDB9728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3F628C056348B7B03B274E /* ZERO_CHECK */;
+			targetProxy = 157C1C0A7D3C4179859C0014 /* PBXContainerItemProxy */;
+		};
+		427C889848344A76B5AFA713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02DEFC2BD642440688CC25DB /* libglew_static */;
+			targetProxy = 4EF7E6C90831447E962D2E1E /* PBXContainerItemProxy */;
+		};
+		E4A01DBC34574BE6967C6D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3F628C056348B7B03B274E /* ZERO_CHECK */;
+			targetProxy = B92CDD150F874D39BAE0D114 /* PBXContainerItemProxy */;
+		};
+		FC57DE6C69D84341A11F1891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015ECB13BA954311927B4E0C /* ALL_BUILD */;
+			targetProxy = FA1C6F52A86A4B9BBD6CE2A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0954B2C1FE9247F180CF7D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		40CB7F2D82D443218D0CDEFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		4519D718D7034DD686592A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		713A655248EC41D98672CDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7487AC765B6C417C84BEC4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7C02BEF417284920B4DD5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7E34531BA953463ABFE0CCE9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cadcg/Documents/github/LearnOpenGL/build/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, GLEW_NO_GLU, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		8AF88434FDC74D1296F89824 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		90B16984317D414DAD563A87 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		988B888E50834A1BB560D5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/build";
+			};
+			name = Debug;
+		};
+		9E51A2540CC844C4BE9A82EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/build";
+			};
+			name = MinSizeRel;
+		};
+		A950917FA8CD4E82AB9EDA5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B05395CB98D4480782976AE1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cadcg/Documents/github/LearnOpenGL/build/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, GLEW_NO_GLU, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		B5735157B1224AA4A51778AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C715EBB7291D4AE4937BE4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cadcg/Documents/github/LearnOpenGL/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, GLEW_NO_GLU, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		CF24B74961A742E989E5AE98 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		F2255693FFE64AFE84CE4C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/cadcg/Documents/github/LearnOpenGL/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, GLEW_NO_GLU, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F3161C8978C649B09A757A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		F523BFB55F954134B7E34428 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		FA0C2702A4834769BC2D5E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+				SYMROOT = "/Users/cadcg/Documents/github/LearnOpenGL/build/external/glew-cmake/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354C12C00E4645909B519C3D /* Build configuration list for PBXNativeTarget "libglew_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2255693FFE64AFE84CE4C1A /* Debug */,
+				C715EBB7291D4AE4937BE4F6 /* Release */,
+				B05395CB98D4480782976AE1 /* MinSizeRel */,
+				7E34531BA953463ABFE0CCE9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D4ABAC5DCAC4F2E8C0E6623 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7487AC765B6C417C84BEC4F5 /* Debug */,
+				0954B2C1FE9247F180CF7D2D /* Release */,
+				F523BFB55F954134B7E34428 /* MinSizeRel */,
+				40CB7F2D82D443218D0CDEFA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D39021F89C7E476C9085E2AD /* Build configuration list for PBXProject "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988B888E50834A1BB560D5F1 /* Debug */,
+				FA0C2702A4834769BC2D5E9E /* Release */,
+				9E51A2540CC844C4BE9A82EB /* MinSizeRel */,
+				A950917FA8CD4E82AB9EDA5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E10CF3A99B2D4AD89703EFB2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713A655248EC41D98672CDCC /* Debug */,
+				4519D718D7034DD686592A84 /* Release */,
+				CF24B74961A742E989E5AE98 /* MinSizeRel */,
+				90B16984317D414DAD563A87 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6C511443D844D2E9E9C86A2 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C02BEF417284920B4DD5C33 /* Debug */,
+				F3161C8978C649B09A757A78 /* Release */,
+				B5735157B1224AA4A51778AC /* MinSizeRel */,
+				8AF88434FDC74D1296F89824 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 532AC4044C3D4DDC9B9A6FA4 /* Project object */;
+}

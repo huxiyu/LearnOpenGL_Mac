@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "63FCD87B8482FEC774376488E8D5236C161F3D37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F91D28A7E95E8F0399C74826E40B332B63E48E1C" : 0,
+    "AE3F0F79FA18959EE39DE06BF81D40ADA159F259" : 0,
+    "63FCD87B8482FEC774376488E8D5236C161F3D37" : 0,
+    "6866465F70BAF86F0290E3F98781F2969BBAAC08" : 0,
+    "98B06E01D4343D431B2B0E55C6ECD31FBB22B99D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5F25AA8D-A7B1-4ADC-B02F-30A4C508E1C4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F91D28A7E95E8F0399C74826E40B332B63E48E1C" : "LearnOpenGL\/external\/glfw\/",
+    "AE3F0F79FA18959EE39DE06BF81D40ADA159F259" : "LearnOpenGL\/external\/assimp\/",
+    "63FCD87B8482FEC774376488E8D5236C161F3D37" : "LearnOpenGL\/",
+    "6866465F70BAF86F0290E3F98781F2969BBAAC08" : "LearnOpenGL\/external\/SOIL\/",
+    "98B06E01D4343D431B2B0E55C6ECD31FBB22B99D" : "LearnOpenGL\/external\/glew-cmake\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LearnOpenGL",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "build\/LearnOpenGL.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephane-lb\/LearnOpenGL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63FCD87B8482FEC774376488E8D5236C161F3D37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DeVaukz\/SOIL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6866465F70BAF86F0290E3F98781F2969BBAAC08"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Perlmint\/glew-cmake.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "98B06E01D4343D431B2B0E55C6ECD31FBB22B99D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/assimp\/assimp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE3F0F79FA18959EE39DE06BF81D40ADA159F259"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/glfw\/glfw.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F91D28A7E95E8F0399C74826E40B332B63E48E1C"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D31DA9289DEB0CBF3F1E64B2718154A21C105DB0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "63FCD87B8482FEC774376488E8D5236C161F3D37" : 0,
+    "D31DA9289DEB0CBF3F1E64B2718154A21C105DB0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0599FEBE-3133-408E-9ADC-C51D6D48AECD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "63FCD87B8482FEC774376488E8D5236C161F3D37" : "LearnOpenGL\/",
+    "D31DA9289DEB0CBF3F1E64B2718154A21C105DB0" : "LearnOpenGL_Mac\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Assimp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "build\/external\/assimp\/Assimp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephane-lb\/LearnOpenGL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63FCD87B8482FEC774376488E8D5236C161F3D37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huxiyu\/LearnOpenGL_Mac.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D31DA9289DEB0CBF3F1E64B2718154A21C105DB0"
+    }
+  ]
+}

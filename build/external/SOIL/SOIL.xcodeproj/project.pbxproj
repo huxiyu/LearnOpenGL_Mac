@@ -1,0 +1,1403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		015ECB13BA954311927B4E0C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ADF5A2843E5F420F8E9D3624 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				49AA745CFD8B4ABC91EEBF70 /* CMake Rules */,
+			);
+			dependencies = (
+				93624FF96D384A71871D7978 /* PBXTargetDependency */,
+				7DF269797C2F4F67A4CD8953 /* PBXTargetDependency */,
+				5709A3C0B40C47638E3AC548 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		14EC82DDD1CF4C32A499759E /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44D84021111A4AC1B68A2397 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				135E45F2AA754836B1FE66A9 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4ABD7CFC8F414AD789F1280D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		DE3F628C056348B7B03B274E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B58E25E84D6A452995128DA1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				61488626B6BE4D2A8A16913E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01CA73BF70954F51AE817E48 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */ = {isa = PBXBuildFile; fileRef = 4AA6AA56A3B94768A3ECDFB4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */; settings = {COMPILER_FLAGS = ""; }; };
+		07F1BC6C2A5F48F386F519AB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */ = {isa = PBXBuildFile; fileRef = E553AD70A1FD43A2A06478E6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0B97281A773D415799EE9C4A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */ = {isa = PBXBuildFile; fileRef = A9AC4A2CBC0048AE864654D6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */; settings = {COMPILER_FLAGS = ""; }; };
+		11F0B2D27F7E4FB1821A6838 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */ = {isa = PBXBuildFile; fileRef = 9A239B79C64E4BA491A65009 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1C9572EA1BCD44179641A480 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */ = {isa = PBXBuildFile; fileRef = CEA586302F6C409390E1D8D4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1D4C28A2EB42481C9665E17C /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */ = {isa = PBXBuildFile; fileRef = B0AD7DC3C2CA4607896D19DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		235A216AA00D42C3AFD11AD8 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */ = {isa = PBXBuildFile; fileRef = 70EE47A777394A3DA7A6DE16 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2547ABDEBAE746F0A4C95CBB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */ = {isa = PBXBuildFile; fileRef = 9C12A85D64044C149F2D1A09 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2C0229A1B9DA49D4B85563BB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */ = {isa = PBXBuildFile; fileRef = ED061DCB3C144C749797E93B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2EAF71D3B42C494FA26A1A45 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */ = {isa = PBXBuildFile; fileRef = 4DDE931A7A5642C684609607 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		364709EE192D41BBAEFCA005 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */ = {isa = PBXBuildFile; fileRef = 29C70DDA6CE14AC4BD4AF0DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */; settings = {ATTRIBUTES = (Public, ); COMPILER_FLAGS = ""; }; };
+		3F7231B619784490B5031DB5 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */ = {isa = PBXBuildFile; fileRef = 8A1D08A17A774838AC783DC3 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */; settings = {COMPILER_FLAGS = ""; }; };
+		520898CC46B2478BA00C0A7D /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */ = {isa = PBXBuildFile; fileRef = 8A5753C270934907AC1A2ECE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5CF442A47A4C4073832BF745 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */ = {isa = PBXBuildFile; fileRef = 0AE04F1BF43F42EABF78833C /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6A19F91D699949C1B499CA88 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */ = {isa = PBXBuildFile; fileRef = EDAA9109A061465BA3170811 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7AEBBAC85B90422DBD66B5C8 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */ = {isa = PBXBuildFile; fileRef = 8C19903059D84C1097173464 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */; settings = {COMPILER_FLAGS = ""; }; };
+		95321BAF22E6466CB2FA6E31 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */ = {isa = PBXBuildFile; fileRef = CA880CCF9B944DA69B95F55B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9B903DD46BCA43ED9B46C3F4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */ = {isa = PBXBuildFile; fileRef = 042A2565169B4289A43037FC /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A0E78D5EAD3942B598ECDAC9 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */ = {isa = PBXBuildFile; fileRef = 5817E426453444D9BBA1FD4A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A15DCDE435884D2C83F3B3BC /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */ = {isa = PBXBuildFile; fileRef = 2B8EA441149E448F911AEF3A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A5002E3111CF40BD98B97921 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */ = {isa = PBXBuildFile; fileRef = E30CAC3F81D349FC95808418 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A9BB203BA63D4AD59FC9A95A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */ = {isa = PBXBuildFile; fileRef = 09918139807A4ADB87D3AFA6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */; settings = {COMPILER_FLAGS = ""; }; };
+		AE636C51D87D4027ADFACB6B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */ = {isa = PBXBuildFile; fileRef = C38B8A2178E942A8B1576377 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B6D41FEC2B844419B74A6433 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ACB35D97000C481E9D39458E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		BB59C826E8694F55A342C871 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4D61B627110C4B718FC32A02 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		C074AC3879FE4CDFA9E84656 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2FE7D1E31E204B389D6A9D46 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D63D4B32E724472A971030A7 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */ = {isa = PBXBuildFile; fileRef = A55F91D19AB248C6964DE91E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DB5C3453963D4AB186E89DC6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */ = {isa = PBXBuildFile; fileRef = EDBF45B0E5A54F89A3CD42CE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DD289043A8CF43999C6A246C /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */ = {isa = PBXBuildFile; fileRef = C9AF25C9366244A6803A4846 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E013716B901D411986C5C517 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */ = {isa = PBXBuildFile; fileRef = 141E3616585F41FAB7E87043 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EF11DBFFF6154A99BCC22F40 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */ = {isa = PBXBuildFile; fileRef = 19B00493371C426CBD984AC6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F61146C9F6C04CDFAF9967EB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */ = {isa = PBXBuildFile; fileRef = 630DDB9B8EE34FDBB3B22B01 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FD8F5536059B4E018B2A797E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */ = {isa = PBXBuildFile; fileRef = 2A98F1A146E04082B2BE0AE6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		04712553E6D743F48B2F4FCA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		80DA93F3C21D485DA525FE4E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8270A0A7534647559A670A62 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		92B3BB7418AD4A6BA54FE004 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C89F4D2AE2664FAC866ABDD2 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1C2BDD35A45F4B0D96DF26BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3F628C056348B7B03B274E;
+			remoteInfo = ZERO_CHECK;
+		};
+		36C75984CDFD459996D80C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015ECB13BA954311927B4E0C;
+			remoteInfo = ALL_BUILD;
+		};
+		4787FEBB5BD84C59B09A8749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3F628C056348B7B03B274E;
+			remoteInfo = ZERO_CHECK;
+		};
+		6466DF935F39473A939B8CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3F628C056348B7B03B274E;
+			remoteInfo = ZERO_CHECK;
+		};
+		6659F0C1C15941B8872E8478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC6FD52376948ED9242A9B0;
+			remoteInfo = SOIL_Dylib;
+		};
+		B2A3B9F325F94790807106DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7848D516E9B24B9B86140291;
+			remoteInfo = SOIL_Static;
+		};
+		E532A40EEFCC47DDAE84843F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D25366BAC04203AFC1D26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3F628C056348B7B03B274E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042A2565169B4289A43037FC /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_aug.h; path = src/stb_image_aug.h; sourceTree = SOURCE_ROOT; };
+		09918139807A4ADB87D3AFA6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image_helper.c; path = src/image_helper.c; sourceTree = SOURCE_ROOT; };
+		0AE04F1BF43F42EABF78833C /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image_DXT.c; path = src/image_DXT.c; sourceTree = SOURCE_ROOT; };
+		141E3616585F41FAB7E87043 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_helper.h; path = src/image_helper.h; sourceTree = SOURCE_ROOT; };
+		19B00493371C426CBD984AC6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_helper.h; path = src/image_helper.h; sourceTree = SOURCE_ROOT; };
+		29C70DDA6CE14AC4BD4AF0DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SOIL.h; path = src/SOIL.h; sourceTree = SOURCE_ROOT; };
+		2A98F1A146E04082B2BE0AE6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_image_aug.c; path = src/stb_image_aug.c; sourceTree = SOURCE_ROOT; };
+		2B8EA441149E448F911AEF3A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_image_aug.c; path = src/stb_image_aug.c; sourceTree = SOURCE_ROOT; };
+		2FE7D1E31E204B389D6A9D46 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4AA6AA56A3B94768A3ECDFB4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SOIL.c; path = src/SOIL.c; sourceTree = SOURCE_ROOT; };
+		4D61B627110C4B718FC32A02 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DDE931A7A5642C684609607 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_aug.h; path = src/stb_image_aug.h; sourceTree = SOURCE_ROOT; };
+		5817E426453444D9BBA1FD4A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image_DXT.c; path = src/image_DXT.c; sourceTree = SOURCE_ROOT; };
+		5FC958E3147C45868C9CFE38 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		630DDB9B8EE34FDBB3B22B01 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stbi_DDS_aug.h; path = src/stbi_DDS_aug.h; sourceTree = SOURCE_ROOT; };
+		70EE47A777394A3DA7A6DE16 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_aug.h; path = src/stb_image_aug.h; sourceTree = SOURCE_ROOT; };
+		8A1D08A17A774838AC783DC3 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SOIL.h; path = src/SOIL.h; sourceTree = SOURCE_ROOT; };
+		8A5753C270934907AC1A2ECE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_DXT.h; path = src/image_DXT.h; sourceTree = SOURCE_ROOT; };
+		8C19903059D84C1097173464 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SOIL.c; path = src/SOIL.c; sourceTree = SOURCE_ROOT; };
+		9A239B79C64E4BA491A65009 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image_helper.c; path = src/image_helper.c; sourceTree = SOURCE_ROOT; };
+		9C12A85D64044C149F2D1A09 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_helper.h; path = src/image_helper.h; sourceTree = SOURCE_ROOT; };
+		A0E717CAA53342A183BC6636 /* SOIL_Static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSOILd.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55F91D19AB248C6964DE91E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SOIL.h; path = src/SOIL.h; sourceTree = SOURCE_ROOT; };
+		A9AC4A2CBC0048AE864654D6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_DXT.h; path = src/image_DXT.h; sourceTree = SOURCE_ROOT; };
+		ACB35D97000C481E9D39458E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0AD7DC3C2CA4607896D19DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stbi_DDS_aug.h; path = src/stbi_DDS_aug.h; sourceTree = SOURCE_ROOT; };
+		C1DCB9E79E0245449ADFE0FA /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C38B8A2178E942A8B1576377 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image_helper.c; path = src/image_helper.c; sourceTree = SOURCE_ROOT; };
+		C9AF25C9366244A6803A4846 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stbi_DDS_aug.h; path = src/stbi_DDS_aug.h; sourceTree = SOURCE_ROOT; };
+		CA880CCF9B944DA69B95F55B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_image_aug.c; path = src/stb_image_aug.c; sourceTree = SOURCE_ROOT; };
+		CEA586302F6C409390E1D8D4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stbi_DDS_aug_c.h; path = src/stbi_DDS_aug_c.h; sourceTree = SOURCE_ROOT; };
+		E000598196F0410185A7CB77 /* SOIL_Dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSOILd.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30CAC3F81D349FC95808418 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stbi_DDS_aug_c.h; path = src/stbi_DDS_aug_c.h; sourceTree = SOURCE_ROOT; };
+		E553AD70A1FD43A2A06478E6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = image_DXT.c; path = src/image_DXT.c; sourceTree = SOURCE_ROOT; };
+		E74FA226AA3C468BA94DB09D /* SOIL_Framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SOIL.framework/SOIL; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED061DCB3C144C749797E93B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SOIL.c; path = src/SOIL.c; sourceTree = SOURCE_ROOT; };
+		EDAA9109A061465BA3170811 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stbi_DDS_aug_c.h; path = src/stbi_DDS_aug_c.h; sourceTree = SOURCE_ROOT; };
+		EDBF45B0E5A54F89A3CD42CE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_DXT.h; path = src/image_DXT.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0736BCE2CE344FF78E3236DD /* SOIL_Dylib */ = {
+			isa = PBXGroup;
+			children = (
+				48541F55F8374C6DBC6BC807 /* Source Files */,
+				85CD35BA6FAC4471A4A239E2 /* Header Files */,
+				ACB35D97000C481E9D39458E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */,
+			);
+			name = SOIL_Dylib;
+			sourceTree = "<group>";
+		};
+		1561364766744F178BB4D8ED /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				29C70DDA6CE14AC4BD4AF0DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */,
+				8A5753C270934907AC1A2ECE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */,
+				19B00493371C426CBD984AC6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */,
+				70EE47A777394A3DA7A6DE16 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */,
+				630DDB9B8EE34FDBB3B22B01 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */,
+				EDAA9109A061465BA3170811 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1B3FBC68D30544E88AF1E087 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		22E04D56CD39452E8AC343A4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D08A17A774838AC783DC3 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */,
+				EDBF45B0E5A54F89A3CD42CE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */,
+				141E3616585F41FAB7E87043 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */,
+				042A2565169B4289A43037FC /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */,
+				C9AF25C9366244A6803A4846 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */,
+				CEA586302F6C409390E1D8D4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		27FC5F7313394333A4A963AE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1B3FBC68D30544E88AF1E087 /* CMake Rules */,
+				C1DCB9E79E0245449ADFE0FA /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3473226AF8DB49EAA4C121F6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E289DD51C0724D1C8D778FEE /* SOIL_Framework */,
+				4BCD84283A164E989487E0C4 /* SOIL_Static */,
+				0736BCE2CE344FF78E3236DD /* SOIL_Dylib */,
+				27FC5F7313394333A4A963AE /* ALL_BUILD */,
+				FC9437F08355421DA4708748 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		43742DDAF4284D829FA3BAAB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C19903059D84C1097173464 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */,
+				5817E426453444D9BBA1FD4A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */,
+				09918139807A4ADB87D3AFA6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */,
+				2B8EA441149E448F911AEF3A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		48541F55F8374C6DBC6BC807 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED061DCB3C144C749797E93B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */,
+				E553AD70A1FD43A2A06478E6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */,
+				9A239B79C64E4BA491A65009 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */,
+				2A98F1A146E04082B2BE0AE6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4BCD84283A164E989487E0C4 /* SOIL_Static */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F32755D044CB281CA8D88 /* Source Files */,
+				22E04D56CD39452E8AC343A4 /* Header Files */,
+				4D61B627110C4B718FC32A02 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */,
+			);
+			name = SOIL_Static;
+			sourceTree = "<group>";
+		};
+		61C8EA84A3DA43BBA5BA9A8F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		669AA3D594BC46EABF4321ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E000598196F0410185A7CB77 /* SOIL_Dylib */,
+				E74FA226AA3C468BA94DB09D /* SOIL_Framework */,
+				A0E717CAA53342A183BC6636 /* SOIL_Static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7654285BED334D4B8AB6E088 = {
+			isa = PBXGroup;
+			children = (
+				3473226AF8DB49EAA4C121F6 /* Sources */,
+				7A4BF5C567104A058750193C /* Resources */,
+				669AA3D594BC46EABF4321ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A4BF5C567104A058750193C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29C70DDA6CE14AC4BD4AF0DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		85CD35BA6FAC4471A4A239E2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55F91D19AB248C6964DE91E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */,
+				A9AC4A2CBC0048AE864654D6 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */,
+				9C12A85D64044C149F2D1A09 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */,
+				4DDE931A7A5642C684609607 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */,
+				B0AD7DC3C2CA4607896D19DE /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */,
+				E30CAC3F81D349FC95808418 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AD9F32755D044CB281CA8D88 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6AA56A3B94768A3ECDFB4 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */,
+				0AE04F1BF43F42EABF78833C /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */,
+				C38B8A2178E942A8B1576377 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */,
+				CA880CCF9B944DA69B95F55B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E289DD51C0724D1C8D778FEE /* SOIL_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				43742DDAF4284D829FA3BAAB /* Source Files */,
+				1561364766744F178BB4D8ED /* Header Files */,
+				2FE7D1E31E204B389D6A9D46 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */,
+			);
+			name = SOIL_Framework;
+			sourceTree = "<group>";
+		};
+		FC9437F08355421DA4708748 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				61C8EA84A3DA43BBA5BA9A8F /* CMake Rules */,
+				5FC958E3147C45868C9CFE38 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF0DF687FC074A77A25C811D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364709EE192D41BBAEFCA005 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.h */,
+				520898CC46B2478BA00C0A7D /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.h */,
+				EF11DBFFF6154A99BCC22F40 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.h */,
+				235A216AA00D42C3AFD11AD8 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.h */,
+				F61146C9F6C04CDFAF9967EB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug.h */,
+				6A19F91D699949C1B499CA88 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stbi_DDS_aug_c.h */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CC6FD52376948ED9242A9B0 /* SOIL_Dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A0FA52B411402CBB32DAC0 /* Build configuration list for PBXNativeTarget "SOIL_Dylib" */;
+			buildPhases = (
+				E7564F7C952A47D790D856F8 /* Sources */,
+				C51DF1F08DCD4452BFA68951 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C9F8D92B714C12ABE3D8FA /* PBXTargetDependency */,
+			);
+			name = SOIL_Dylib;
+			productName = SOIL_Dylib;
+			productReference = E000598196F0410185A7CB77 /* SOIL_Dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		7848D516E9B24B9B86140291 /* SOIL_Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE916C986BFC41CB84103723 /* Build configuration list for PBXNativeTarget "SOIL_Static" */;
+			buildPhases = (
+				038182153CF94AB69B796111 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2065EB8338834D44BACC92CB /* PBXTargetDependency */,
+			);
+			name = SOIL_Static;
+			productName = SOIL_Static;
+			productReference = A0E717CAA53342A183BC6636 /* SOIL_Static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFCEAC9918F54BF49A2FA759 /* SOIL_Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136DDBAAEA824188B128C141 /* Build configuration list for PBXNativeTarget "SOIL_Framework" */;
+			buildPhases = (
+				AF0DF687FC074A77A25C811D /* Headers */,
+				7D5A1547B4EA4DD18FABF2D4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E34EA0FAE34FCAAF848772 /* PBXTargetDependency */,
+			);
+			name = SOIL_Framework;
+			productName = SOIL_Framework;
+			productReference = E74FA226AA3C468BA94DB09D /* SOIL_Framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D25366BAC04203AFC1D26A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 7447A8BFB7A744E888136278 /* Build configuration list for PBXProject "SOIL" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				80DA93F3C21D485DA525FE4E /* Debug */,
+				8270A0A7534647559A670A62 /* Release */,
+				92B3BB7418AD4A6BA54FE004 /* MinSizeRel */,
+				04712553E6D743F48B2F4FCA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7654285BED334D4B8AB6E088;
+			projectDirPath = ../../../external/SOIL;
+			projectRoot = "";
+			targets = (
+				015ECB13BA954311927B4E0C /* ALL_BUILD */,
+				5CC6FD52376948ED9242A9B0 /* SOIL_Dylib */,
+				BFCEAC9918F54BF49A2FA759 /* SOIL_Framework */,
+				7848D516E9B24B9B86140291 /* SOIL_Static */,
+				DE3F628C056348B7B03B274E /* ZERO_CHECK */,
+				14EC82DDD1CF4C32A499759E /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		135E45F2AA754836B1FE66A9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1AA63747298F4EDD95D0F928 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		49AA745CFD8B4ABC91EEBF70 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4C68D9A23CBD4528BA4D967E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		548B71CF340F4FA3BB058751 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		61488626B6BE4D2A8A16913E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C51DF1F08DCD4452BFA68951 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL -f /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeScripts/SOIL_Dylib_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038182153CF94AB69B796111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CA73BF70954F51AE817E48 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */,
+				5CF442A47A4C4073832BF745 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */,
+				AE636C51D87D4027ADFACB6B /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */,
+				95321BAF22E6466CB2FA6E31 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5A1547B4EA4DD18FABF2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEBBAC85B90422DBD66B5C8 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */,
+				A0E78D5EAD3942B598ECDAC9 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */,
+				A9BB203BA63D4AD59FC9A95A /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */,
+				A15DCDE435884D2C83F3B3BC /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7564F7C952A47D790D856F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0229A1B9DA49D4B85563BB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/SOIL.c */,
+				07F1BC6C2A5F48F386F519AB /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_DXT.c */,
+				11F0B2D27F7E4FB1821A6838 /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/image_helper.c */,
+				FD8F5536059B4E018B2A797E /* /Users/cadcg/Documents/github/LearnOpenGL/external/SOIL/src/stb_image_aug.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C9F8D92B714C12ABE3D8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3F628C056348B7B03B274E /* ZERO_CHECK */;
+			targetProxy = 1C2BDD35A45F4B0D96DF26BC /* PBXContainerItemProxy */;
+		};
+		2065EB8338834D44BACC92CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3F628C056348B7B03B274E /* ZERO_CHECK */;
+			targetProxy = 6466DF935F39473A939B8CA3 /* PBXContainerItemProxy */;
+		};
+		4ABD7CFC8F414AD789F1280D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015ECB13BA954311927B4E0C /* ALL_BUILD */;
+			targetProxy = 36C75984CDFD459996D80C22 /* PBXContainerItemProxy */;
+		};
+		5709A3C0B40C47638E3AC548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC6FD52376948ED9242A9B0 /* SOIL_Dylib */;
+			targetProxy = 6659F0C1C15941B8872E8478 /* PBXContainerItemProxy */;
+		};
+		74E34EA0FAE34FCAAF848772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3F628C056348B7B03B274E /* ZERO_CHECK */;
+			targetProxy = E532A40EEFCC47DDAE84843F /* PBXContainerItemProxy */;
+		};
+		7DF269797C2F4F67A4CD8953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7848D516E9B24B9B86140291 /* SOIL_Static */;
+			targetProxy = B2A3B9F325F94790807106DB /* PBXContainerItemProxy */;
+		};
+		93624FF96D384A71871D7978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3F628C056348B7B03B274E /* ZERO_CHECK */;
+			targetProxy = 4787FEBB5BD84C59B09A8749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B14DC5EE564389803124D2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Dylib_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /lib/libSOIL.1.dylib  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL.1.07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		0881EEB11CB64D35B19CA294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "x86_64 i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/build;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		14DA7F4900204D9FBC5DD9E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Dylib_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /lib/libSOIL.1.dylib  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL.1.07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		1A315D2EADBF4B62B006A7E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		37875D5E83EF40FFA33E4349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		48ECE5BC94114FE388650AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Framework_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INFOPLIST_FILE = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeFiles/SOIL_Framework.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4C704EC4DAD94E7AA4614F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		4D91171616C44DCABF7BF551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "x86_64 i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/build;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		5A0DB14D19BD4C9AA00A6F3C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Framework_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INFOPLIST_FILE = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeFiles/SOIL_Framework.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		64DC8B8493D34A838DC3C2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		651D345923A14F3FAE41FCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Dylib_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /lib/libSOIL.1.dylib  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL.1.07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		68C99AC329024666BC23BBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Framework_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INFOPLIST_FILE = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeFiles/SOIL_Framework.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = "  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		73DEA3D14E824DDD863AF76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Dylib_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /lib/libSOILd.1.dylib  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOILd.1.07;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		96A578A083D747C5842F139D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		9A86D1926026487B9EBC16AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "x86_64 i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/build;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = MinSizeRel;
+		};
+		9BA4F18F0EE94873BD78E486 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "x86_64 i386";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/build;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = RelWithDebInfo;
+		};
+		A8A48FE2D13440E88FA9742B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		BA28A34C38274E40823954AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOILd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BB85A4C89663435BA96A2500 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		BDD5E16768844F13AFF30F2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C49724FDFE70445D9B67DBEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C7F8132E3D2F48038BEC3A26 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		CEC4B66CA1294B5D80915EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DADA5B72927D4347938978D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E15FE7B9482D4B6EB804CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E1FDDA9C74F54044AE73F65C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		E96F56E78C7D4E1F8F97735E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (x86_64, i386, );
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.7.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", SOIL_Framework_EXPORTS, GLEW_STATIC, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INFOPLIST_FILE = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL/CMakeFiles/SOIL_Framework.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -framework CoreFoundation -framework OpenGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SOIL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		F194CD09B4A44FF4B144D5FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/include", "/Users/cadcg/Documents/github/LearnOpenGL/external/glew-cmake/src", /Users/cadcg/Documents/github/LearnOpenGL/external/glfw/include, /Users/cadcg/Documents/github/LearnOpenGL/external/glm, /Users/cadcg/Documents/github/LearnOpenGL/external/assimp/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/cadcg/Documents/github/LearnOpenGL/build/external/SOIL;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136DDBAAEA824188B128C141 /* Build configuration list for PBXNativeTarget "SOIL_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C99AC329024666BC23BBEC /* Debug */,
+				48ECE5BC94114FE388650AC6 /* Release */,
+				E96F56E78C7D4E1F8F97735E /* MinSizeRel */,
+				5A0DB14D19BD4C9AA00A6F3C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44D84021111A4AC1B68A2397 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C704EC4DAD94E7AA4614F99 /* Debug */,
+				E15FE7B9482D4B6EB804CD5B /* Release */,
+				BDD5E16768844F13AFF30F2A /* MinSizeRel */,
+				A8A48FE2D13440E88FA9742B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51A0FA52B411402CBB32DAC0 /* Build configuration list for PBXNativeTarget "SOIL_Dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DEA3D14E824DDD863AF76F /* Debug */,
+				651D345923A14F3FAE41FCA8 /* Release */,
+				04B14DC5EE564389803124D2 /* MinSizeRel */,
+				14DA7F4900204D9FBC5DD9E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7447A8BFB7A744E888136278 /* Build configuration list for PBXProject "SOIL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0881EEB11CB64D35B19CA294 /* Debug */,
+				4D91171616C44DCABF7BF551 /* Release */,
+				9A86D1926026487B9EBC16AD /* MinSizeRel */,
+				9BA4F18F0EE94873BD78E486 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADF5A2843E5F420F8E9D3624 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC8B8493D34A838DC3C2CA /* Debug */,
+				CEC4B66CA1294B5D80915EA7 /* Release */,
+				C49724FDFE70445D9B67DBEB /* MinSizeRel */,
+				E1FDDA9C74F54044AE73F65C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B58E25E84D6A452995128DA1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37875D5E83EF40FFA33E4349 /* Debug */,
+				DADA5B72927D4347938978D4 /* Release */,
+				BB85A4C89663435BA96A2500 /* MinSizeRel */,
+				F194CD09B4A44FF4B144D5FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE916C986BFC41CB84103723 /* Build configuration list for PBXNativeTarget "SOIL_Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA28A34C38274E40823954AF /* Debug */,
+				96A578A083D747C5842F139D /* Release */,
+				1A315D2EADBF4B62B006A7E4 /* MinSizeRel */,
+				C7F8132E3D2F48038BEC3A26 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D25366BAC04203AFC1D26A /* Project object */;
+}
